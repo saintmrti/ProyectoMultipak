@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+.heatmap {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heatmap2 {
+    clip-path: inset(40% 0% 10% 0);
+    transform: translateY(-40%);
+}
+
+.heatmap svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: auto;
+}
+
+.contenedor {
+    /* width: 100%; */
+    margin-top: 100px;
+}
+
+.imagenS {
+    width: 100%;
+    height: auto;
+}
+
+.custom {
+    font-size: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.custom p {
+    margin: 0;
+    color: #666;
+}
+
+#plano-container {
+    display: flex;
+    align-items: center;
+}
